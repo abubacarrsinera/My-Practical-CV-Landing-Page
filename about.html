@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="icon" type="image/jpg" href="./Starter Code/Images/status_me_status_IMG-20230421-WA0086.jpg">
+</head>
+<body>
+     <nav>
+        <div class="logo"><h1>Abubacarr Sinera</h1></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-left">
+            <h1>Welcome to my CV Page</h1>
+            <p>Writer | Islamic Leader | Web Developer | Graphic Designer | DataBase Administrator etc..</p>
+        </div>
+        <div class="hero-right">
+            <img src="./Starter Code/Images/status_me_status_IMG-20230421-WA0086.jpg" alt="Myself">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </header>
+
+    <section class="about">
+        <h2>Read About Me</h2>
+        <p>I am <strong>Abubacarr Sinera,</strong> a passionate youth leader, writer, and the President of Ambassadors of Islam Association. My mission is to inspire Islamic awareness, moral development, and intellectual growth among the yoths
+        </p>
+
+        <div class="about-section">
+            <div class="card">
+                <h3>Leadership</h3>
+                <p>
+                    As the President of AIA and leaded many youth and school clubs. I lead programs focused on educations, Islamic ethics, and socal impact projects within my community and country at large.
+                </p>
+                <img src="./Starter Code/Images/IMG-20250401-WA0034.jpg" alt="">
+            </div>
+
+            <div class="card">
+                <h3>Writing</h3>
+                <p>
+                    I'm a poet and author working on philosophical and Islamic-Themed books, such as "The Power in Solitude". My writings explore the human self, reflection, and spirituality
+                </p>
+                <img src="./Starter Code/Images/IMG-20250701-WA0073.jpg" alt="">
+            </div>
+
+            <div class="card">
+                <h3>Vision</h3>
+                <p>
+                    To become a leader for Islam and a writer for Islam in Promoting it's knowledge, faith and service through words and action.
+                </p>
+                <img src="./Starter Code/Images/Snapchat-1594347969.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+<footer>
+    <div class="footer-left">
+    <p>&copy; 2025 Abubacarr Sinera</p>
+    <pre>All Rights Reseverd</pre>
+    </div>
+    <img src="" alt="">
+    
+    <div class="footer-right">
+                <img src="./Starter Code/Images/download.jfif" alt="Facebook"><a
+                    href="https://www.facebook.com/profile.php?id=100077520194290&mibextid=rS40aB7S9Ucbxw6v"
+                    target="_blank">Facebook</a>
+                <img src="./Starter Code/Images/icon-instagram.svg" alt="Instergram"><a
+                    href="https://www.instagram.com/sinera530?igsh=dWlxZzNhZm1mm9j" target="_blank">Instagram</a>
+                <img src="./Starter Code/Images/logo-linkedin.svg" alt="Linkedin"><a
+                    href="https://www.linkedin.com/in/abubacarr-sinera-927b8921b/" target="_blank">LinkedIn</a>
+                <img src="./Starter Code/Images/icon-github.svg" alt="Git Hub"><a
+                    href="https://www.linkedin.com/abubacarrsinera">GitHub</a>
+            </div>
+  </footer>
+
+  <button id="toTop" class="scroll-btn top-btn">↑ Top</button>
+<button id="toBottom" class="scroll-btn bottom-btn">↓ Bottom</button>
+
+<script>
+    document.getElementById("toTop").addEventListener("click", function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+
+  document.getElementById("toBottom").addEventListener("click", function() {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  });
+</script>
+
+</body>
+</html>

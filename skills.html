@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="icon" type="image/jpg" href="./Starter Code/Images/status_me_status_IMG-20230421-WA0086.jpg">
+</head>
+<body>
+     <nav>
+        <div class="logo"><h1>Abubacarr Sinera</h1></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html" class="active">Skills</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-left">
+            <h1>Welcome to my CV Page</h1>
+            <p>Writer | Islamic Leader | Web Developer | Graphic Designer | DataBase Administrator etc..</p>
+        </div>
+        <div class="hero-right">
+            <img src="./Starter Code/Images/status_me_status_IMG-20230421-WA0086.jpg" alt="Myself">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </header>
+
+
+    <section class="skills">
+        <h2>My Skills are:</h2>
+
+        <div class="skills-grid">
+            <div class="card">
+                <h3>Microsoft Office Suites</h3>
+                <p>
+                    Proficient in all the Microsoft Office Suites areas, with 1 year teaching experience and Data-Base
+                    Mangement Skills.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Web Designer</h3>
+                <p>
+                    Strong foundations in HTML and CSS. Experienced in creating professional static websites with clean
+                    annd responsive designs.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Leadership and Mentorship</h3>
+                <p>
+                    Experienced in guiding youth teams, organising all types of events and developing Mentorship
+                    programms for spiritutal and intellectual groths.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Communications and Writting</h3>
+                <p>
+                    Excellent public speaker and writter with particpations in debates and writting challanges.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>These above and these below are some of my skills I gained</h3>
+                <p>
+                    <li>Pitching</li>
+                    <li>Selling</li>
+                    <li>Painting</li>
+                    <li>Construction Assistance</li>
+                    <li>Taekwondo</li>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-left">
+            <p>&copy; 2025 Abubacarr Sinera</p>
+            <pre>All Rights Reseverd</pre>
+        </div>
+        <img src="" alt="">
+
+        <div class="footer-right">
+            <img src="./Starter Code/Images/icon-tiktok.svg" alt="Facebook"><a
+                href="https://www.facebook.com/profile.php?id=100077520194290&mibextid=rS40aB7S9Ucbxw6v"
+                target="_blank">Facebook</a>
+            <img src="./Starter Code/Images/icon-instagram.svg" alt="Instergram"><a
+                href="https://www.instagram.com/sinera530/?igsh=dWlxZzNhZm1mm9j#" target="_blank">Instagram</a>
+            <img src="./Starter Code/Images/logo-linkedin.svg" alt="Linkedin"><a
+                href="https://www.linkedin.com/in/abubacarr-sinera-927b8921b/" target="_blank">LinkedIn</a>
+            <img src="./Starter Code/Images/icon-github.svg" alt="Git Hub"><a
+                href="https://http://www.github.com//abubacarrsinera">GitHub</a>
+        </div>
+    </footer>
+
+
+    <button id="toTop" class="scroll-btn top-btn">↑ Top</button>
+<button id="toBottom" class="scroll-btn bottom-btn">↓ Bottom</button>
+
+<script>
+    document.getElementById("toTop").addEventListener("click", function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+
+  document.getElementById("toBottom").addEventListener("click", function() {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  });
+</script>
+
+</body>
+
+</html>

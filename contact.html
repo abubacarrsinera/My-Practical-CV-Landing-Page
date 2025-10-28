@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="icon" type="image/jpg" href="./Starter Code/Images/status_me_status_IMG-20230421-WA0086.jpg">
+    <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><h1>Abubacarr Sinera</h1></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html" class="active">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-left">
+            <h1>Welcome to my CV Page</h1>
+            <p>Writer | Islamic Leader | Web Developer | Graphic Designer | DataBase Administrator etc..</p>
+        </div>
+        <div class="hero-right">
+            <img src="./Starter Code/Images/status_me_status_IMG-20230421-WA0086.jpg" alt="Myself">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </header>
+
+    <section class="contact">
+        <h2>Get In Touch With Me</h2>
+        <p>Let's connect!! I'm open for collabrotions, mentorship, Islamic Youth Projects and many more as you
+            think!!....</p>
+
+        <div class="social-links">
+             <img src="./Starter Code/Images/download.jfif" alt="Facebook"><a
+                    href="https://www.facebook.com/profile.php?id=100077520194290&mibextid=rS40aB7S9Ucbxw6v"
+                    target="_blank">Facebook</a>
+            <img src="./Starter Code/Images/icon-instagram.svg" alt="Instergram"><a
+                href="https://www.instagram.com/sinera530?igsh=dWlxZzNhZm1mm9j" target="_blank">Instagram</a>
+            <img src="./Starter Code/Images/logo-linkedin.svg" alt="Linkedin"><a
+                href="https://www.linkedin.com/in/abubacarr-sinera-927b8921b/" target="_blank">LinkedIn</a>
+            <img src="./Starter Code/Images/icon-github.svg" alt="Git Hub"><a
+                href="https://www.linkedin.com/abubacarrsinera">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-left">
+            <p>&copy; 2025 Abubacarr Sinera</p>
+            <pre>All Rights Reseverd</pre>
+        </div>
+        <img src="" alt="">
+
+        <div class="footer-right">
+                <img src="./Starter Code/Images/download.jfif" alt="Facebook"><a
+                    href="https://www.facebook.com/profile.php?id=100077520194290&mibextid=rS40aB7S9Ucbxw6v"
+                    target="_blank">Facebook</a>
+                <img src="./Starter Code/Images/icon-instagram.svg" alt="Instergram"><a
+                    href="https://www.instagram.com/sinera530?igsh=dWlxZzNhZm1mm9j" target="_blank">Instagram</a>
+                <img src="./Starter Code/Images/logo-linkedin.svg" alt="Linkedin"><a
+                    href="https://www.linkedin.com/in/abubacarr-sinera-927b8921b/" target="_blank">LinkedIn</a>
+                <img src="./Starter Code/Images/icon-github.svg" alt="Git Hub"><a
+                    href="https://www.linkedin.com/abubacarrsinera">GitHub</a>
+            </div>
+    </footer>
+
+    <button id="toTop" class="scroll-btn top-btn">↑ Top</button>
+<button id="toBottom" class="scroll-btn bottom-btn">↓ Bottom</button>
+
+<script>
+    document.getElementById("toTop").addEventListener("click", function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+
+  document.getElementById("toBottom").addEventListener("click", function() {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  });
+</script>
+
+</body>
+</html>
