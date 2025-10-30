@@ -1,81 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My | CV</title>
+    <title>Loging | Sinera CV</title>
     <link rel="stylesheet" href="master.css">
     <link rel="icon" type="image/jpg" href="./Starter Code/Images/status_me_status_IMG-20230421-WA0086.jpg">
 </head>
+<body class="login-body">
+    
+    <div class="login-container">
+        <h2>
+            Welcome back!!
+        </h2>
 
-<body>
-    <nav>
-        <div class="logo"><h1>Abubacarr Sinera</h1></div>
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-    </nav>
-
-    <header class="hero">
-        <div class="hero-left">
-            <h1>Welcome to my CV Page</h1>
-            <p>Writer | Islamic Leader | Web Developer | Graphic Designer | DataBase Administrator etc..</p>
-        </div>
-        <div class="hero-right">
-            <img src="./Starter Code/Images/status_me_status_IMG-20230421-WA0086.jpg" alt="Myself">
-            <a href="contact.html">Contact Me</a>
-        </div>
-    </header>
-
-    <section>
-        <h1>Abubacarr Sinera</h1>
-        <P> <strong>Abubacarr Sinera</strong> is a passionate and visionary youth leader from <strong>The Gambia,</strong> deeply committed to <strong>Islamic values, education, and community development. <pre></strong> He is the <strong>President of the Ambassadors of Islam Association (AIA)</strong> an organization dedicated to nurturing Islamic awareness, leadership, and youth empowerment.</pre> Through his leadership, <strong>Abubacarr</strong> strives to inspire young Muslims to live by the principles of Islam while actively contributing to the betterment of society.</P>
-        <p> An avid learner and educator, <strong>Abubacarr</strong> studies subjects including English, Mathematics, Science, History, Civic Education, Literature, Government, Islamic Studies and ICT. His passion for learning extends beyond academics, he continuously develops skills in areas like public speaking, writing, and digital literacy. </p>
-        <p> <strong>Abubacarr</strong> is also a writer, poet, and debater, recognized under his poetic name <strong>SSDP</strong>. He has participated in writing and debate competitions, including the British Parliament Debate, where he represented his views on youth participation in national development. His writings often explore themes of solitude, self-discovery, faith, and moral strength, blending Islamic philosophy and psychology to promote reflection and personal growth. His ongoing book project, "To Be Free from Lonely and Embrace the Greatness of Alone", captures this vision in depth.
-
-Beyond his academic and literary pursuits, Abubacarr is an aspiring entrepreneur, currently planning to establish a small poultry business focusing on broilers and layers, reflecting his belief in self-reliance and productive community engagement.</p>
-<p></p>
-    </section>
-
-
-        <footer>
-            <div class="footer-left">
-                <p>&copy; 2025 Abubacarr Sinera</p>
-                <pre>All Rights Reseverd</pre>
+        <form action="home.html" method="get">
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" required>
             </div>
-            <img src="" alt="">
-
-            <div class="footer-right">
-                <img src="./Starter Code/Images/download.jfif" alt="Facebook"><a
-                    href="https://www.facebook.com/profile.php?id=100077520194290&mibextid=rS40aB7S9Ucbxw6v"
-                    target="_blank">Facebook</a>
-                <img src="./Starter Code/Images/icon-instagram.svg" alt="Instergram"><a
-                    href="https://www.instagram.com/sinera530?igsh=dWlxZzNhZm1mm9j" target="_blank">Instagram</a>
-                <img src="./Starter Code/Images/logo-linkedin.svg" alt="Linkedin"><a
-                    href="https://www.linkedin.com/in/abubacarr-sinera-927b8921b/" target="_blank">LinkedIn</a>
-                <img src="./Starter Code/Images/icon-github.svg" alt="Git Hub"><a
-                    href="https://www.linkedin.com/abubacarrsinera">GitHub</a>
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" required>
             </div>
-        </footer>
-
-<button id="toTop" class="scroll-btn top-btn">↑ Top</button>
-<button id="toBottom" class="scroll-btn bottom-btn">↓ Bottom</button>
-
-<script>
-    document.getElementById("toTop").addEventListener("click", function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
-
-
-  document.getElementById("toBottom").addEventListener("click", function() {
-    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-  });
-</script>
-
+            <button type="submit" class="btn">
+                Loging
+            </button>
+        </form>
+    </div>
 </body>
 </html>

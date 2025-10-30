@@ -75,6 +75,72 @@ nav .logo img {
   text-align: center;
 }
 
+.hero-right0 {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 60px;
+  background: pink;
+  border-radius: 10px 60px 30px 120px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.hero-right1 {
+ display: inline-block;
+  background-color: #ffd700;
+  color: #003366;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-right2 {
+ display: inline-block;
+  background-color: #ffd700;
+  color: #003366;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+} 
+
+.hero-right3 {
+ display: inline-block;
+  background-color: #ffd700;
+  color: #003366;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+} 
+
+.hero-right4 {
+ display: inline-block;
+  background-color: #ffd700;
+  color: #003366;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+} 
+
+.hero-right5 {
+ display: inline-block;
+  background-color: #ffd700;
+  color: #003366;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+} 
+
 .hero-right img {
   width: 220px;
   height: 220px;
@@ -99,7 +165,6 @@ nav .logo img {
   background-color: #fff;
 }
 
-/* ========== LOGIN PAGE ========== */
 .login-body {
   display: flex;
   justify-content: center;
@@ -238,6 +303,42 @@ nav .logo img {
   border-left: 5px solid #003366;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.education1 {
+  padding: 60px 80px;
+  text-align: center;
+  color: #003366;
+}
+
+.education1 h2 {
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: #0066cc;
+  text-decoration-style: wavy;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 5px;
+}
+
+.education1 h3 {
+  text-decoration: underline;
+  text-decoration-color: #00bcd4;
+  text-decoration-style: dotted;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 5px;
+  color: #003366;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.edu-card1 {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 10px solid #003366;
+  border-radius: 10px 60px 30px;
+  box-shadow: 0 18px 18px rgba(0,0,0,0.6);
 }
 
 .skills {
@@ -404,7 +505,7 @@ footer {
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   nav {
     flex-direction: column;
     align-items: flex-start;
